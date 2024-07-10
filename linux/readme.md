@@ -92,6 +92,10 @@
 
 - Steps in [here](./server/ssh.md).
 
+## Setup nix/home-manager
+
+- check [here](https://github.com/CharlesChiuGit/nix-hm-config)
+
 [^1]: https://www.baeldung.com/linux/snap-remove-disable
 
 [^2]: https://canonical-ubuntu-pro-client.readthedocs-hosted.com/en/latest/explanations/motd_messages/
