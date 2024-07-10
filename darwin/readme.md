@@ -1,4 +1,4 @@
-# MacOS suckless settings
+# macOS suckless settings
 
 ## Setup `Homebrew` and Apps
 
