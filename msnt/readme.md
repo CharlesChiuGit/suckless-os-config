@@ -27,17 +27,17 @@
   - place `.zshenv` in `C:/Users/{USERNAME}/`.
 - Config `pwsh`:
   1. Open pwsh as "Admin", change excution policy via:
-  ```powershell
-  Set-ExecutionPolicy RemoteSigned
-  ```
-  2. Edit pwsh profile
-  ```powershell
-  notepad $PROFILE
-  ```
-  3. Reload pwsh profile
-  ```powershell
-  . $PROFILE
-  ```
+  - ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    ```
+  2. Edit pwsh profile:
+  - ```powershell
+    notepad $PROFILE
+    ```
+  3. Reload pwsh profile:
+  - ```powershell
+    . $PROFILE
+    ```
 
 ## Install `scoop`
 
@@ -45,4 +45,4 @@
 
 ## Configs for certain Apps
 
-- Steps in [here](url)
+- Steps in [here](./app-config/readme.md)
