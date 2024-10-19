@@ -46,3 +46,17 @@
 ## Configs for certain Apps
 
 - Steps in [here](./app-config/readme.md)
+
+## `CHKDSK` vs `SFC` vs `DISM`
+
+- CHKDSK(Check Disk):
+  - `chkdsk c: /f`: find and fix any errors on the hard disk.
+  - `chkdsk c: /r`: detect and locate the bad sectors on the target hard disk, and try to recover the readable information from the bad sectors.
+  - `chkdsk c: /r /f`: detect errors and fix it.
+- SFC(System File Checker):
+  - `sfc /scannow`: the System File Checker tool helps you scan and repair corruptions in Windows system files.
+  - `sfc /verifyonly`: only scan but not repair the corrupted system files.
+- DISM(Deployment Image Servicing and Management):
+  - `DISM /Online /Cleanup-Image /CheckHealth`: checks if there are any corruptions inside the local image, but not repair them.
+  - `DISM /Online /Cleanup-Image /ScanHealth`: performs a more advanced scan to check if the Windows image has corruptions.
+  - `DISM /Online /Cleanup-Image /RestoreHealth`: run an advanced scan and automatically repair any detected problems with the image.
