@@ -23,7 +23,7 @@
   sudo systemctl disable snpad
   sudo systemctl mask snapd
   sudo apt purge snapd -y
-  sudo apt-mark hold snpad
+  sudo apt-mark hold snapd
   ```
 - Preventing Snap installatin through `apt` command:
   ```sh
