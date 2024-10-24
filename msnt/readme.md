@@ -60,3 +60,12 @@
   - `DISM /Online /Cleanup-Image /CheckHealth`: checks if there are any corruptions inside the local image, but not repair them.
   - `DISM /Online /Cleanup-Image /ScanHealth`: performs a more advanced scan to check if the Windows image has corruptions.
   - `DISM /Online /Cleanup-Image /RestoreHealth`: run an advanced scan and automatically repair any detected problems with the image.
+
+## DoH (DNS over HTTPS)
+
+- IPV4:
+  - 1.1.1.1: https://cloudflare-dns.com/dns-query
+  - 8.8.8.8: https://dns.google/dns-query
+- IPV6:
+  - 2606:4700:4700::64: https://cloudflare-dns.com/dns-query
+  - 2001:4860:4860::64: https://dns.google/dns-query
